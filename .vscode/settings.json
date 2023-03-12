@@ -1,0 +1,31 @@
+{
+    "editor.suggestSelection": "first",
+    "workbench.sideBar.location": "left",
+    "editor.rulers": [
+        120
+    ],
+    "git.ignoreLimitWarning": true,
+    "python.defaultInterpreterPath": "C:\\Users\\user\\Projects\\python_environments\\radiodesvu-env\\Scripts\\python.exe",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "--max-line-length=120",
+        "--output-format=colorized"
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120"
+    ],
+    "python.autoComplete.extraPaths": [
+        "./"
+    ],
+    "python.analysis.extraPaths": [
+        "./"
+    ],
+    "python.autoComplete.addBrackets": true,
+    "python.analysis.completeFunctionParens": true,
+    "editor.formatOnSave": true
+}
