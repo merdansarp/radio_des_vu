@@ -21,6 +21,11 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
     {
+        name: "Les Essays 7",
+        image: "./assets/img/days_esra_gulmen.PNG",
+        path: "https://docs.google.com/uc?export=download&id=1E2li4lznlfm6Es3GwDh53FOP3OPgCgHg"
+    },
+    {
         name: "Les Essays 6",
         image: "./assets/img/joan_cornella_let_yourself_down.jpeg",
         path: "https://docs.google.com/uc?export=download&id=1KqWhPs_JscPLoFRvvGVmOrVjgNGZAawv"
