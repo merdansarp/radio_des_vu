@@ -47,7 +47,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #212529;
 }
 
 [tabindex="-1"]:focus {
@@ -422,17 +422,6 @@ main,
 nav,
 section {
   display: block;
-}
-
-body {
-  margin: 0;
-  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.6;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -6246,6 +6235,7 @@ input[type="button"].btn-block {
   border-radius: 0.3rem;
 }
 
+
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
@@ -7704,8 +7694,12 @@ button.close {
   vertical-align: text-top !important;
 }
 
+.light-text {
+  color: #fff
+}
+
 .bg-primary {
-  background-color: #03a87c !important;
+  background-color: #212529 !important;
 }
 
 a.bg-primary:hover,
@@ -7792,6 +7786,28 @@ button.bg-dark:focus {
   background-color: #0a0c0d !important;
 }
 
+.bg-theme {
+  background-color: var(--bkg-color) !important;
+}
+
+a.bg-theme:hover,
+a.bg-theme:focus,
+button.bg-theme:hover,
+button.bg-theme:focus {
+  background-color: #0a0c0d !important;
+}
+
+.bg-theme-minus-one {
+  background-color: #212327 !important;
+}
+
+a.bg-theme-minus-one:hover,
+a.bg-theme-minus-one:focus,
+button.bg-theme-minus-one:hover,
+button.bg-theme-minus-one:focus {
+  background-color: #212327 !important;
+}
+
 .bg-white {
   background-color: #fff !important;
 }
@@ -7845,6 +7861,17 @@ a.bg-gray:focus,
 button.bg-gray:hover,
 button.bg-gray:focus {
   background-color: #b1bbc4 !important;
+}
+
+.bg-darkless {
+  background-color: #212327 !important;
+}
+
+a.bg-darkless:hover,
+a.bg-darkless:focus,
+button.bg-darkless:hover,
+button.bg-darkless:focus {
+  background-color: #212327 !important;
 }
 
 .bg-indigo {
@@ -13774,7 +13801,7 @@ a.text-dark:hover {
 }
 
 .bg-primary {
-  fill: #03a87c !important;
+  fill: #212529 !important;
 }
 
 .bg-secondary {
@@ -14295,6 +14322,7 @@ footer.bg-black a:hover {
   #bosshow {
     display: none;
   }
+
 }
 
 #docsarea h1 {

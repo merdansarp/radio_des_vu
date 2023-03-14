@@ -34,20 +34,23 @@
 			</button>
 			<div class="navbar-collapse collapse" id="navbarColor02" style="">
 				<ul class="navbar-nav mr-auto d-flex align-items-center">
-					<li class="nav-item light-text">
-						Konular:
+					<li class="nav-item">
+						<a class="nav-link">Konular: </a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./article_onsoz.html">Önsöz</a>
+						<a class="nav-link" href="">Topic 1</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./all_articles.html">Tüm Yazılar</a>
+						<a class="nav-link" href="">Topic 2</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./audio_player.html">Audio Player</a>
+						<a class="nav-link" href="">Topic 3</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./article_about.html">Hakkında</a>
+						<a class="nav-link" href="">Topic 4</a>
+					</li>
+					<li class="nav-item">
+						<button onclick="darkMode()">Dark Mode</button>
 					</li>
 				</ul>
 			</div>
@@ -63,11 +66,14 @@
 					<div class="col-md-6 pt-6 pb-6 align-self-center">
 						<h1 class="secondfont mb-3 font-weight-bold">Radyo Des Vu Hk.</h1>
 						<p class="mb-3">
-							Radyo DesVu, ileride neye dönüşeceğini çok da umursamadan, kendimi yansıtmayı umduğum bir
-							internet sitesi projesidir. Kaydettiğim radyo yayınlarının dinlenebileceği (:,
-							bitirebildiğim ve bittikten sonra okurken utanmadığım yazıların durabilmesi için
-							oluşturduğum bir websitesi, blogumsudur. Buraya da yazıyorum çünkü burası sitenin sadece
-							masaüstü versiyonunda gözüküyor ve uzun yazı görsel açıdan daha güzel duruyor.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat est eu pharetra
+							volutpat. Nulla nec mauris non erat sollicitudin malesuada eu non mi. Proin id massa metus.
+							Maecenas commodo nibh efficitur leo consectetur gravida. Etiam non tempus enim. Curabitur
+							faucibus erat leo, eget viverra erat ornare at. Sed condimentum justo eros, in pellentesque
+							odio tempor vitae. Nullam enim tellus, sollicitudin at suscipit vitae, feugiat a nunc. Nulla
+							suscipit, mauris a hendrerit interdum, purus magna sollicitudin neque, quis congue ante
+							lectus eget erat. Aliquam ut massa at dolor blandit dictum in nec ante. Fusce volutpat nisl
+							elit, vel mattis diam rutrum sit amet.
 						</p>
 					</div>
 					<div class="col-md-6 d-none d-md-block pr-0"
@@ -78,39 +84,14 @@
 	</div>
 	<!-- End Header -->
 
+
+
 	<!--------------------------------------MAIN--------------------------------------->
+
 	<div class="container pt-4 pb-4 bg-dark light-text" id="mainshow">
 		<div class="row">
-			<div class="col-lg-6 bg-darkless light-text">
-				<h2 class="h4 font-weight-bold" style="text-align: center;">
-					<a class="text-light">Kayıtları Buradan Dinleyebilirsin</a>
-				</h2>
-				<div class="player">
-					<div class="details">
-						<div class="now-playing">Kayıt: x / y</div>
-						<div class="track-art"></div>
-						<div class="track-name">Track Name</div>
-					</div>
-					<div class="buttons">
-						<div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
-						<div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i>
-						</div>
-						<div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
-					</div>
-					<div class="slider_container">
-						<div class="current-time">00:00</div>
-						<input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-						<div class="total-duration">00:00</div>
-					</div>
-					<div class="slider_container">
-						<i class="fa fa-volume-down"></i>
-						<input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
-						<i class="fa fa-volume-up"></i>
-					</div>
-				</div>
-			</div>
 			<div class="col-lg-6 bg-dark light-text">
-				<div class="card border-0 mb-4 box-shadow h-xl-300 bg-darkless light-text" id="bosshow">
+				<div class="card border-0 mb-4 box-shadow h-xl-300 bg-darkless light-text">
 					<div
 						style="background-image: url(./assets/img/wopt_esra_gulmen_capture.jpg); height: 150px;    background-size: cover;    background-repeat: no-repeat;">
 					</div>
@@ -141,11 +122,40 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-lg-6 bg-darkless light-text">
+				<h2 class="h4 font-weight-bold" style="text-align: center;">
+					<a class="text-light">Kayıtları Buradan Dinleyebilirsin</a>
+				</h2>
+				<div class="player">
+					<div class="details">
+						<div class="now-playing">Kayıt: x / y</div>
+						<div class="track-art"></div>
+						<div class="track-name">Track Name</div>
+					</div>
+					<div class="buttons">
+						<div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+						<div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i>
+						</div>
+						<div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+					</div>
+					<div class="slider_container">
+						<div class="current-time">00:00</div>
+						<input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+						<div class="total-duration">00:00</div>
+					</div>
+					<div class="slider_container">
+						<i class="fa fa-volume-down"></i>
+						<input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+						<i class="fa fa-volume-up"></i>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
+
 	<!--------------------------------------FOOTER--------------------------------------->
-	<nav class="topnav navbar navbar-expand-lg navbar-dark bg-dark light-text bottom">
+	<nav class="topnav navbar navbar-expand-lg navbar-dark bg-dark bottom">
 		<div class="container">
 			<div class="row align-items-center justify-content-between">
 				<div>
