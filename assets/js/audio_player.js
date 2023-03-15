@@ -22,7 +22,7 @@ let curr_track = document.createElement('audio');
 let track_list = [
     {
         name: "Les Essays 7",
-        image: "./assets/img/days_esra_gulmen.PNG",
+        image: "./assets/img/thom_yorke_using_old_computer.jpg",
         path: "https://docs.google.com/uc?export=download&id=1E2li4lznlfm6Es3GwDh53FOP3OPgCgHg"
     },
     {
