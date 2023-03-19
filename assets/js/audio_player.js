@@ -21,6 +21,11 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
     {
+        name: "Les Essays 8",
+        image: "./assets/img/viii.jpeg",
+        path: "https://docs.google.com/uc?export=download&id=1Zb7IkkW1E8cVdCAwKZn2ilE8NfpAVPHi"
+    },
+    {
         name: "Les Essays 7",
         image: "./assets/img/thom_yorke_using_old_computer.jpg",
         path: "https://docs.google.com/uc?export=download&id=1E2li4lznlfm6Es3GwDh53FOP3OPgCgHg"
@@ -46,7 +51,7 @@ let track_list = [
         path: "https://docs.google.com/uc?export=download&id=1F2YEAjtwJ2RvWog8TxeQtk5OTptj9rer"
     },
     {
-        name: "Önsöz | Les Essays 1",
+        name: "Önsöz | Les Essays",
         image: "./assets/img/Wopt_esra_gulmen.jpg",
         path: "https://docs.google.com/uc?export=download&id=1RFBf_YAJS1nXr1U6YmVVRYd1BAHHxtnz"
     }
