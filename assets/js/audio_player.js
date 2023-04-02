@@ -21,6 +21,11 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
     {
+        name: "Les Essays 9",
+        image: "./assets/img/halo_on_fire.jpeg",
+        path: "https://docs.google.com/uc?export=download&id=11HXX1HHmGfJt3je113hMEYAZZsMaUShi"
+    },
+    {
         name: "Les Essays 8",
         image: "./assets/img/viii.jpeg",
         path: "https://docs.google.com/uc?export=download&id=1Zb7IkkW1E8cVdCAwKZn2ilE8NfpAVPHi"
