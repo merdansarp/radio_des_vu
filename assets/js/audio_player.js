@@ -21,6 +21,11 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
     {
+        name: "Les Essays 2023i",
+        image: "./assets/img/polachek.jpg",
+        path: "https://docs.google.com/uc?export=download&id=1_plfkU72VAWS8BIt7h2fraQBfbTO-I4F"
+    },
+    {
         name: "Les Essays 11",
         image: "./assets/img/11_raining.jpg",
         path: "https://docs.google.com/uc?export=download&id=1NEWm0p-WlRS3vr1AJuKgNgpn3mAPvLlb"
